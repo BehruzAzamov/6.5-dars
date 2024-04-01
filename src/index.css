@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 39px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  nav {
+    display: flex;
+    gap: 15px;
+  }
+}
